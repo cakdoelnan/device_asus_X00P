@@ -1234,3 +1234,7 @@ on property:persist.sys.debug.copyanr=0
 
 on boot
    start getpersistlog
+
+on property:dev.bootcomplete=1
+    restart vendor.qcrild
+    restart vendor.qcrild2
