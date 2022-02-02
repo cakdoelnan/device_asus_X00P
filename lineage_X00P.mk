@@ -9,18 +9,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common KangOS stuff.
+$(call inherit-product, vendor/kangos/config/common_full_phone.mk)
 
 # Inherit from X00P device
 $(call inherit-product, device/asus/X00P/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := asus
-PRODUCT_DEVICE := X00P
+PRODUCT_DEVICE := X00R
 PRODUCT_MANUFACTURER := asus
-PRODUCT_NAME := lineage_X00P
-PRODUCT_MODEL := ASUS_X00PD
+PRODUCT_NAME := kangos_X00R
+PRODUCT_MODEL := ASUS_X00RD
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 
