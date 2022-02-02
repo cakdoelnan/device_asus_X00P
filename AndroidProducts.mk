@@ -6,4 +6,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_X00P.mk
+    $(LOCAL_DIR)/kangos_X00P.mk
